@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.0.0)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.5.5)
+  - MBProgressHUD (1.2.0)
+  - OAuthSwift (2.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (~> 1.2.0)
+  - OAuthSwift (from `https://github.com/OAuthSwift/OAuthSwift.git`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  OAuthSwift:
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+CHECKOUT OPTIONS:
+  OAuthSwift:
+    :commit: 5650af9155366fbee2ac565d109378d29b5e9338
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  OAuthSwift: b65415797d860d0a25c7d178250cfb8cec4b83bf
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: d3dc74be2912818492bd3a8d097b97963920edc6
+
+COCOAPODS: 1.7.5

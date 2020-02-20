@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C080635123FA6D9600232B0C /* SideMenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080634923FA6D9600232B0C /* SideMenuOptionCell.swift */; };
+		C080635223FA6D9600232B0C /* SideMenuOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080634A23FA6D9600232B0C /* SideMenuOptionCell.xib */; };
+		C080635323FA6D9600232B0C /* SideMenuOptionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080634C23FA6D9600232B0C /* SideMenuOptionHeader.swift */; };
+		C080635423FA6D9600232B0C /* SideMenuOptionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080634D23FA6D9600232B0C /* SideMenuOptionHeader.xib */; };
+		C080635523FA6D9600232B0C /* SideMenuAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080634E23FA6D9600232B0C /* SideMenuAdapter.swift */; };
+		C080635623FA6D9600232B0C /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080634F23FA6D9600232B0C /* SideMenuController.swift */; };
+		C080635723FA6D9600232B0C /* SideMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080635023FA6D9600232B0C /* SideMenuController.xib */; };
+		C080635E23FA6DCE00232B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C080635A23FA6DCE00232B0C /* Assets.xcassets */; };
+		C080636C23FAB45500232B0C /* TRMapListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080636A23FAB45500232B0C /* TRMapListingController.swift */; };
+		C080636D23FAB45500232B0C /* TRMapListingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080636B23FAB45500232B0C /* TRMapListingController.xib */; };
+		C080637223FAB6D500232B0C /* TRMapListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080637023FAB6D500232B0C /* TRMapListingCell.swift */; };
+		C080637323FAB6D500232B0C /* TRMapListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080637123FAB6D500232B0C /* TRMapListingCell.xib */; };
+		C080637523FAB7FD00232B0C /* TRMapListingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080637423FAB7FD00232B0C /* TRMapListingAdapter.swift */; };
+		C080637D23FABC4C00232B0C /* TRServerListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080637623FABC4C00232B0C /* TRServerListingController.swift */; };
+		C080637E23FABC4C00232B0C /* TRServerListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080637923FABC4C00232B0C /* TRServerListingCell.swift */; };
+		C080637F23FABC4D00232B0C /* TRServerListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080637A23FABC4C00232B0C /* TRServerListingCell.xib */; };
+		C080638023FABC4D00232B0C /* TRServerListingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080637B23FABC4C00232B0C /* TRServerListingAdapter.swift */; };
+		C080638123FABC4D00232B0C /* TRServerListingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080637C23FABC4C00232B0C /* TRServerListingController.xib */; };
+		C080638923FABE2300232B0C /* TRDataSetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080638223FABE2300232B0C /* TRDataSetController.swift */; };
+		C080638A23FABE2300232B0C /* TRDataSetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080638323FABE2300232B0C /* TRDataSetController.xib */; };
+		C080638B23FABE2300232B0C /* TRDataSetAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080638523FABE2300232B0C /* TRDataSetAdapter.swift */; };
+		C080638C23FABE2300232B0C /* TRDataSetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080638723FABE2300232B0C /* TRDataSetCell.xib */; };
+		C080638D23FABE2300232B0C /* TRDataSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080638823FABE2300232B0C /* TRDataSetCell.swift */; };
+		C080639123FABFAD00232B0C /* TRMainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080638F23FABFAD00232B0C /* TRMainTabController.swift */; };
+		C080639223FABFAD00232B0C /* TRMainTabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080639023FABFAD00232B0C /* TRMainTabController.xib */; };
+		C080639B23FAC52F00232B0C /* GradientView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C080639923FAC52F00232B0C /* GradientView.xib */; };
+		C080639C23FAC52F00232B0C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080639A23FAC52F00232B0C /* GradientView.swift */; };
+		C080639E23FAD17A00232B0C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080639D23FAD17A00232B0C /* Extensions.swift */; };
+		C08063A123FAD3C100232B0C /* GISExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080639F23FAD3C100232B0C /* GISExtention.swift */; };
+		C08063A223FAD3C100232B0C /* GISConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08063A023FAD3C100232B0C /* GISConstants.swift */; };
+		C08063A523FAD3F200232B0C /* QaisTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08063A323FAD3F200232B0C /* QaisTopBar.swift */; };
+		C08063A623FAD3F200232B0C /* QaisTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08063A423FAD3F200232B0C /* QaisTopBar.xib */; };
+		CB05885491FB1146141FFB4A /* Pods_TRWMSLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5946FBFD4059CCAF564FCC73 /* Pods_TRWMSLayer.framework */; };
+		D31B5BCD23F419A50094F2F1 /* TRWMSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D31B5BCB23F419A50094F2F1 /* TRWMSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31B5BD523F419FA0094F2F1 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31B5BD323F419FA0094F2F1 /* MapView.xib */; };
+		D31B5BD623F419FA0094F2F1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B5BD423F419FA0094F2F1 /* MapView.swift */; };
+		D31B5BD923F41A070094F2F1 /* TRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31B5BD723F41A070094F2F1 /* TRMapViewController.xib */; };
+		D31B5BDA23F41A070094F2F1 /* TRMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B5BD823F41A070094F2F1 /* TRMapViewController.swift */; };
+		D31B5C1223F42EBB0094F2F1 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D378F7D523F547470067996C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D378F7D423F547470067996C /* UIKit.framework */; platformFilter = ios; };
+		D381CCB023FACCA6008B5373 /* TRTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381CCAF23FACCA6008B5373 /* TRTileLayer.swift */; };
+		D3A2C68623F67D09006785EB /* SphericalMercator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A2C68523F67D09006785EB /* SphericalMercator.swift */; };
+		D3A2C69023F67F92006785EB /* BBXYZ.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2C68F23F67F92006785EB /* BBXYZ.h */; };
+		D3B298EE23FEA9FB00C3A12F /* GISConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B298ED23FEA9FB00C3A12F /* GISConfiguration.swift */; };
+		DD520FBE23F6B2000003D8FF /* AppNetowrkManagar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD520FBD23F6B2000003D8FF /* AppNetowrkManagar.swift */; };
+		DD563A9223F6BD03000363AA /* TRWMSLayerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD563A9123F6BD03000363AA /* TRWMSLayerUtility.swift */; };
+		DD62372623FAAAED00BEBA97 /* CommonNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD62372523FAAAED00BEBA97 /* CommonNetworkManager.swift */; };
+		DD62372823FABC4200BEBA97 /* GISServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD62372723FABC4200BEBA97 /* GISServerModel.swift */; };
+		DD62372A23FABD2500BEBA97 /* GISMapLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD62372923FABD2500BEBA97 /* GISMapLayers.swift */; };
+		DD7845D023F6C43A002EA7F8 /* HelperTRWMSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7845CF23F6C43A002EA7F8 /* HelperTRWMSLayer.swift */; };
+		DD7845D323F6C495002EA7F8 /* TWMSLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7845D223F6C495002EA7F8 /* TWMSLayerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D31B5C1323F42EBB0094F2F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D31B5C1223F42EBB0094F2F1 /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5946FBFD4059CCAF564FCC73 /* Pods_TRWMSLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRWMSLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCA52EF38131A572479D116 /* Pods-TRWMSLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRWMSLayer.release.xcconfig"; path = "Target Support Files/Pods-TRWMSLayer/Pods-TRWMSLayer.release.xcconfig"; sourceTree = "<group>"; };
+		C080634923FA6D9600232B0C /* SideMenuOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuOptionCell.swift; sourceTree = "<group>"; };
+		C080634A23FA6D9600232B0C /* SideMenuOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuOptionCell.xib; sourceTree = "<group>"; };
+		C080634C23FA6D9600232B0C /* SideMenuOptionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuOptionHeader.swift; sourceTree = "<group>"; };
+		C080634D23FA6D9600232B0C /* SideMenuOptionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuOptionHeader.xib; sourceTree = "<group>"; };
+		C080634E23FA6D9600232B0C /* SideMenuAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuAdapter.swift; sourceTree = "<group>"; };
+		C080634F23FA6D9600232B0C /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		C080635023FA6D9600232B0C /* SideMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuController.xib; sourceTree = "<group>"; };
+		C080635A23FA6DCE00232B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C080636A23FAB45500232B0C /* TRMapListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRMapListingController.swift; sourceTree = "<group>"; };
+		C080636B23FAB45500232B0C /* TRMapListingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TRMapListingController.xib; sourceTree = "<group>"; };
+		C080637023FAB6D500232B0C /* TRMapListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRMapListingCell.swift; sourceTree = "<group>"; };
+		C080637123FAB6D500232B0C /* TRMapListingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TRMapListingCell.xib; sourceTree = "<group>"; };
+		C080637423FAB7FD00232B0C /* TRMapListingAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRMapListingAdapter.swift; sourceTree = "<group>"; };
+		C080637623FABC4C00232B0C /* TRServerListingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRServerListingController.swift; sourceTree = "<group>"; };
+		C080637923FABC4C00232B0C /* TRServerListingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TRServerListingCell.swift; path = "../../../../Server Listing/Adapter/Cells/TRServerListingCell.swift"; sourceTree = "<group>"; };
+		C080637A23FABC4C00232B0C /* TRServerListingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TRServerListingCell.xib; path = "../../../../Server Listing/Adapter/Cells/TRServerListingCell.xib"; sourceTree = "<group>"; };
+		C080637B23FABC4C00232B0C /* TRServerListingAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TRServerListingAdapter.swift; path = "../../Server Listing/Adapter/TRServerListingAdapter.swift"; sourceTree = "<group>"; };
+		C080637C23FABC4C00232B0C /* TRServerListingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRServerListingController.xib; sourceTree = "<group>"; };
+		C080638223FABE2300232B0C /* TRDataSetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRDataSetController.swift; sourceTree = "<group>"; };
+		C080638323FABE2300232B0C /* TRDataSetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRDataSetController.xib; sourceTree = "<group>"; };
+		C080638523FABE2300232B0C /* TRDataSetAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TRDataSetAdapter.swift; path = "../../Data Set Controller/Adapter/TRDataSetAdapter.swift"; sourceTree = "<group>"; };
+		C080638723FABE2300232B0C /* TRDataSetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TRDataSetCell.xib; path = "../../../../Data Set Controller/Adapter/Cells/TRDataSetCell.xib"; sourceTree = "<group>"; };
+		C080638823FABE2300232B0C /* TRDataSetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TRDataSetCell.swift; path = "../../../../Data Set Controller/Adapter/Cells/TRDataSetCell.swift"; sourceTree = "<group>"; };
+		C080638F23FABFAD00232B0C /* TRMainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRMainTabController.swift; sourceTree = "<group>"; };
+		C080639023FABFAD00232B0C /* TRMainTabController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TRMainTabController.xib; sourceTree = "<group>"; };
+		C080639923FAC52F00232B0C /* GradientView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientView.xib; sourceTree = "<group>"; };
+		C080639A23FAC52F00232B0C /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C080639D23FAD17A00232B0C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C080639F23FAD3C100232B0C /* GISExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISExtention.swift; sourceTree = "<group>"; };
+		C08063A023FAD3C100232B0C /* GISConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISConstants.swift; sourceTree = "<group>"; };
+		C08063A323FAD3F200232B0C /* QaisTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QaisTopBar.swift; sourceTree = "<group>"; };
+		C08063A423FAD3F200232B0C /* QaisTopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QaisTopBar.xib; sourceTree = "<group>"; };
+		CAE358D914B8408A1F853907 /* Pods-TRWMSLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRWMSLayer.debug.xcconfig"; path = "Target Support Files/Pods-TRWMSLayer/Pods-TRWMSLayer.debug.xcconfig"; sourceTree = "<group>"; };
+		D31B5BC823F419A50094F2F1 /* TRWMSLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRWMSLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31B5BCB23F419A50094F2F1 /* TRWMSLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWMSLayer.h; sourceTree = "<group>"; };
+		D31B5BCC23F419A50094F2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31B5BD323F419FA0094F2F1 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		D31B5BD423F419FA0094F2F1 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D31B5BD723F41A070094F2F1 /* TRMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMapViewController.xib; sourceTree = "<group>"; };
+		D31B5BD823F41A070094F2F1 /* TRMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMapViewController.swift; sourceTree = "<group>"; };
+		D378F7D423F547470067996C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D381CCAF23FACCA6008B5373 /* TRTileLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRTileLayer.swift; sourceTree = "<group>"; };
+		D3A2C68523F67D09006785EB /* SphericalMercator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphericalMercator.swift; sourceTree = "<group>"; };
+		D3A2C68F23F67F92006785EB /* BBXYZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBXYZ.h; sourceTree = "<group>"; };
+		D3B298ED23FEA9FB00C3A12F /* GISConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISConfiguration.swift; sourceTree = "<group>"; };
+		DD520FBD23F6B2000003D8FF /* AppNetowrkManagar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetowrkManagar.swift; sourceTree = "<group>"; };
+		DD563A9123F6BD03000363AA /* TRWMSLayerUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRWMSLayerUtility.swift; sourceTree = "<group>"; };
+		DD62372523FAAAED00BEBA97 /* CommonNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonNetworkManager.swift; sourceTree = "<group>"; };
+		DD62372723FABC4200BEBA97 /* GISServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISServerModel.swift; sourceTree = "<group>"; };
+		DD62372923FABD2500BEBA97 /* GISMapLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISMapLayers.swift; sourceTree = "<group>"; };
+		DD7845CF23F6C43A002EA7F8 /* HelperTRWMSLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTRWMSLayer.swift; sourceTree = "<group>"; };
+		DD7845D223F6C495002EA7F8 /* TWMSLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWMSLayerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31B5BC523F419A50094F2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05885491FB1146141FFB4A /* Pods_TRWMSLayer.framework in Frameworks */,
+				D378F7D523F547470067996C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E2CEC1BB07DFCC43D5BA7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE358D914B8408A1F853907 /* Pods-TRWMSLayer.debug.xcconfig */,
+				BCCA52EF38131A572479D116 /* Pods-TRWMSLayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4203B5C5D93FDD0EE8F69DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D378F7D423F547470067996C /* UIKit.framework */,
+				5946FBFD4059CCAF564FCC73 /* Pods_TRWMSLayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C080634623FA6D9600232B0C /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C080634723FA6D9600232B0C /* Adapter */,
+				C080634F23FA6D9600232B0C /* SideMenuController.swift */,
+				C080635023FA6D9600232B0C /* SideMenuController.xib */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		C080634723FA6D9600232B0C /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C080634823FA6D9600232B0C /* Cells */,
+				C080634B23FA6D9600232B0C /* Headers */,
+				C080634E23FA6D9600232B0C /* SideMenuAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		C080634823FA6D9600232B0C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C080634923FA6D9600232B0C /* SideMenuOptionCell.swift */,
+				C080634A23FA6D9600232B0C /* SideMenuOptionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C080634B23FA6D9600232B0C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C080634C23FA6D9600232B0C /* SideMenuOptionHeader.swift */,
+				C080634D23FA6D9600232B0C /* SideMenuOptionHeader.xib */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C080635823FA6DCE00232B0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C080639823FAC52F00232B0C /* GradientView */,
+				C080635A23FA6DCE00232B0C /* Assets.xcassets */,
+				C080639D23FAD17A00232B0C /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C080636623FAB41000232B0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C080638E23FABF8B00232B0C /* Main Tab */,
+				C080636923FAB42E00232B0C /* Data Set Controller */,
+				C080636823FAB42600232B0C /* Server Listing */,
+				C080636723FAB41C00232B0C /* Map Listing */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C080636723FAB41C00232B0C /* Map Listing */ = {
+			isa = PBXGroup;
+			children = (
+				C080636A23FAB45500232B0C /* TRMapListingController.swift */,
+				C080636B23FAB45500232B0C /* TRMapListingController.xib */,
+			);
+			path = "Map Listing";
+			sourceTree = "<group>";
+		};
+		C080636823FAB42600232B0C /* Server Listing */ = {
+			isa = PBXGroup;
+			children = (
+				C080637623FABC4C00232B0C /* TRServerListingController.swift */,
+				C080637C23FABC4C00232B0C /* TRServerListingController.xib */,
+			);
+			path = "Server Listing";
+			sourceTree = "<group>";
+		};
+		C080636923FAB42E00232B0C /* Data Set Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C080638223FABE2300232B0C /* TRDataSetController.swift */,
+				C080638323FABE2300232B0C /* TRDataSetController.xib */,
+			);
+			path = "Data Set Controller";
+			sourceTree = "<group>";
+		};
+		C080638E23FABF8B00232B0C /* Main Tab */ = {
+			isa = PBXGroup;
+			children = (
+				C080639323FAC3B800232B0C /* Adapters */,
+				C080638F23FABFAD00232B0C /* TRMainTabController.swift */,
+				C080639023FABFAD00232B0C /* TRMainTabController.xib */,
+			);
+			path = "Main Tab";
+			sourceTree = "<group>";
+		};
+		C080639323FAC3B800232B0C /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				C080639423FAC3BF00232B0C /* Cells */,
+				C080637423FAB7FD00232B0C /* TRMapListingAdapter.swift */,
+				C080638523FABE2300232B0C /* TRDataSetAdapter.swift */,
+				C080637B23FABC4C00232B0C /* TRServerListingAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		C080639423FAC3BF00232B0C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C080639523FAC3D200232B0C /* Maps */,
+				C080639723FAC3E100232B0C /* Data Sets */,
+				C080639623FAC3D800232B0C /* Servers */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C080639523FAC3D200232B0C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				C080637023FAB6D500232B0C /* TRMapListingCell.swift */,
+				C080637123FAB6D500232B0C /* TRMapListingCell.xib */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		C080639623FAC3D800232B0C /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				C080637923FABC4C00232B0C /* TRServerListingCell.swift */,
+				C080637A23FABC4C00232B0C /* TRServerListingCell.xib */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
+		C080639723FAC3E100232B0C /* Data Sets */ = {
+			isa = PBXGroup;
+			children = (
+				C080638723FABE2300232B0C /* TRDataSetCell.xib */,
+				C080638823FABE2300232B0C /* TRDataSetCell.swift */,
+			);
+			path = "Data Sets";
+			sourceTree = "<group>";
+		};
+		C080639823FAC52F00232B0C /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				C080639923FAC52F00232B0C /* GradientView.xib */,
+				C080639A23FAC52F00232B0C /* GradientView.swift */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		D31B5BBE23F419A50094F2F1 = {
+			isa = PBXGroup;
+			children = (
+				DD7845D123F6C448002EA7F8 /* Model */,
+				D31B5BCA23F419A50094F2F1 /* TRWMSLayer */,
+				D31B5BC923F419A50094F2F1 /* Products */,
+				06E2CEC1BB07DFCC43D5BA7C /* Pods */,
+				4203B5C5D93FDD0EE8F69DD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D31B5BC923F419A50094F2F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31B5BC823F419A50094F2F1 /* TRWMSLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31B5BCA23F419A50094F2F1 /* TRWMSLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C080636623FAB41000232B0C /* Controllers */,
+				C080634623FA6D9600232B0C /* Side Menu */,
+				D31B5BCB23F419A50094F2F1 /* TRWMSLayer.h */,
+				D31B5BD823F41A070094F2F1 /* TRMapViewController.swift */,
+				D31B5BD723F41A070094F2F1 /* TRMapViewController.xib */,
+				DD7845CE23F6C41F002EA7F8 /* Helper */,
+				D31B5BCC23F419A50094F2F1 /* Info.plist */,
+				C080635823FA6DCE00232B0C /* Resources */,
+				DD563A9023F6BCE4000363AA /* UtilityMethods */,
+				DD520FBC23F6B1E00003D8FF /* API */,
+				D3A2C69123F681B4006785EB /* SportingFiles */,
+			);
+			path = TRWMSLayer;
+			sourceTree = "<group>";
+		};
+		D3A2C69123F681B4006785EB /* SportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C08063A323FAD3F200232B0C /* QaisTopBar.swift */,
+				C08063A423FAD3F200232B0C /* QaisTopBar.xib */,
+				D3A2C68523F67D09006785EB /* SphericalMercator.swift */,
+				D3A2C68F23F67F92006785EB /* BBXYZ.h */,
+			);
+			path = SportingFiles;
+			sourceTree = "<group>";
+		};
+		D3A470FC23FDA30500797ED9 /* mapView */ = {
+			isa = PBXGroup;
+			children = (
+				D31B5BD423F419FA0094F2F1 /* MapView.swift */,
+				D31B5BD323F419FA0094F2F1 /* MapView.xib */,
+			);
+			path = mapView;
+			sourceTree = "<group>";
+		};
+		DD520FBC23F6B1E00003D8FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DD520FBD23F6B2000003D8FF /* AppNetowrkManagar.swift */,
+				DD62372523FAAAED00BEBA97 /* CommonNetworkManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DD563A9023F6BCE4000363AA /* UtilityMethods */ = {
+			isa = PBXGroup;
+			children = (
+				DD563A9123F6BD03000363AA /* TRWMSLayerUtility.swift */,
+				C08063A023FAD3C100232B0C /* GISConstants.swift */,
+				C080639F23FAD3C100232B0C /* GISExtention.swift */,
+				D3B298ED23FEA9FB00C3A12F /* GISConfiguration.swift */,
+			);
+			path = UtilityMethods;
+			sourceTree = "<group>";
+		};
+		DD7845CE23F6C41F002EA7F8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DD7845CF23F6C43A002EA7F8 /* HelperTRWMSLayer.swift */,
+				D381CCAF23FACCA6008B5373 /* TRTileLayer.swift */,
+				D3A470FC23FDA30500797ED9 /* mapView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DD7845D123F6C448002EA7F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD7845D223F6C495002EA7F8 /* TWMSLayerModel.swift */,
+				DD62372723FABC4200BEBA97 /* GISServerModel.swift */,
+				DD62372923FABD2500BEBA97 /* GISMapLayers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D31B5BC323F419A50094F2F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A2C69023F67F92006785EB /* BBXYZ.h in Headers */,
+				D31B5BCD23F419A50094F2F1 /* TRWMSLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D31B5BC723F419A50094F2F1 /* TRWMSLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31B5BD023F419A50094F2F1 /* Build configuration list for PBXNativeTarget "TRWMSLayer" */;
+			buildPhases = (
+				3AE4E572D0B2D71226CFE59C /* [CP] Check Pods Manifest.lock */,
+				D31B5BC323F419A50094F2F1 /* Headers */,
+				D31B5BC423F419A50094F2F1 /* Sources */,
+				D31B5BC523F419A50094F2F1 /* Frameworks */,
+				D31B5BC623F419A50094F2F1 /* Resources */,
+				D31B5C1323F42EBB0094F2F1 /* Embed Frameworks */,
+				2F3182129A0F47590703847A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRWMSLayer;
+			productName = TRWMSLayer;
+			productReference = D31B5BC823F419A50094F2F1 /* TRWMSLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31B5BBF23F419A50094F2F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Waqas Rasheed";
+				TargetAttributes = {
+					D31B5BC723F419A50094F2F1 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = D31B5BC223F419A50094F2F1 /* Build configuration list for PBXProject "TRWMSLayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31B5BBE23F419A50094F2F1;
+			productRefGroup = D31B5BC923F419A50094F2F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31B5BC723F419A50094F2F1 /* TRWMSLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31B5BC623F419A50094F2F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C080636D23FAB45500232B0C /* TRMapListingController.xib in Resources */,
+				C080638123FABC4D00232B0C /* TRServerListingController.xib in Resources */,
+				C080635723FA6D9600232B0C /* SideMenuController.xib in Resources */,
+				C080635223FA6D9600232B0C /* SideMenuOptionCell.xib in Resources */,
+				C080637323FAB6D500232B0C /* TRMapListingCell.xib in Resources */,
+				C080639223FABFAD00232B0C /* TRMainTabController.xib in Resources */,
+				C080635423FA6D9600232B0C /* SideMenuOptionHeader.xib in Resources */,
+				C080638C23FABE2300232B0C /* TRDataSetCell.xib in Resources */,
+				C080638A23FABE2300232B0C /* TRDataSetController.xib in Resources */,
+				D31B5BD523F419FA0094F2F1 /* MapView.xib in Resources */,
+				C080635E23FA6DCE00232B0C /* Assets.xcassets in Resources */,
+				D31B5BD923F41A070094F2F1 /* TRMapViewController.xib in Resources */,
+				C080639B23FAC52F00232B0C /* GradientView.xib in Resources */,
+				C080637F23FABC4D00232B0C /* TRServerListingCell.xib in Resources */,
+				C08063A623FAD3F200232B0C /* QaisTopBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F3182129A0F47590703847A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRWMSLayer/Pods-TRWMSLayer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRWMSLayer/Pods-TRWMSLayer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TRWMSLayer/Pods-TRWMSLayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE4E572D0B2D71226CFE59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRWMSLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31B5BC423F419A50094F2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C080637523FAB7FD00232B0C /* TRMapListingAdapter.swift in Sources */,
+				C08063A223FAD3C100232B0C /* GISConstants.swift in Sources */,
+				C080639C23FAC52F00232B0C /* GradientView.swift in Sources */,
+				DD520FBE23F6B2000003D8FF /* AppNetowrkManagar.swift in Sources */,
+				C080635623FA6D9600232B0C /* SideMenuController.swift in Sources */,
+				DD62372A23FABD2500BEBA97 /* GISMapLayers.swift in Sources */,
+				DD7845D323F6C495002EA7F8 /* TWMSLayerModel.swift in Sources */,
+				C080638D23FABE2300232B0C /* TRDataSetCell.swift in Sources */,
+				C080637E23FABC4C00232B0C /* TRServerListingCell.swift in Sources */,
+				DD62372623FAAAED00BEBA97 /* CommonNetworkManager.swift in Sources */,
+				D381CCB023FACCA6008B5373 /* TRTileLayer.swift in Sources */,
+				C080638B23FABE2300232B0C /* TRDataSetAdapter.swift in Sources */,
+				D3B298EE23FEA9FB00C3A12F /* GISConfiguration.swift in Sources */,
+				C080637D23FABC4C00232B0C /* TRServerListingController.swift in Sources */,
+				DD563A9223F6BD03000363AA /* TRWMSLayerUtility.swift in Sources */,
+				C080636C23FAB45500232B0C /* TRMapListingController.swift in Sources */,
+				D31B5BD623F419FA0094F2F1 /* MapView.swift in Sources */,
+				DD7845D023F6C43A002EA7F8 /* HelperTRWMSLayer.swift in Sources */,
+				DD62372823FABC4200BEBA97 /* GISServerModel.swift in Sources */,
+				C080635523FA6D9600232B0C /* SideMenuAdapter.swift in Sources */,
+				C08063A123FAD3C100232B0C /* GISExtention.swift in Sources */,
+				C080639123FABFAD00232B0C /* TRMainTabController.swift in Sources */,
+				D31B5BDA23F41A070094F2F1 /* TRMapViewController.swift in Sources */,
+				C080635123FA6D9600232B0C /* SideMenuOptionCell.swift in Sources */,
+				D3A2C68623F67D09006785EB /* SphericalMercator.swift in Sources */,
+				C080639E23FAD17A00232B0C /* Extensions.swift in Sources */,
+				C080635323FA6D9600232B0C /* SideMenuOptionHeader.swift in Sources */,
+				C080637223FAB6D500232B0C /* TRMapListingCell.swift in Sources */,
+				C08063A523FAD3F200232B0C /* QaisTopBar.swift in Sources */,
+				C080638923FABE2300232B0C /* TRDataSetController.swift in Sources */,
+				C080638023FABC4D00232B0C /* TRServerListingAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D31B5BCE23F419A50094F2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D31B5BCF23F419A50094F2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D31B5BD123F419A50094F2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE358D914B8408A1F853907 /* Pods-TRWMSLayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PG2T47658D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TRWMSLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Target.TRWMSLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31B5BD223F419A50094F2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCA52EF38131A572479D116 /* Pods-TRWMSLayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PG2T47658D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TRWMSLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Target.TRWMSLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31B5BC223F419A50094F2F1 /* Build configuration list for PBXProject "TRWMSLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31B5BCE23F419A50094F2F1 /* Debug */,
+				D31B5BCF23F419A50094F2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31B5BD023F419A50094F2F1 /* Build configuration list for PBXNativeTarget "TRWMSLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31B5BD123F419A50094F2F1 /* Debug */,
+				D31B5BD223F419A50094F2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31B5BBF23F419A50094F2F1 /* Project object */;
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TRDataSetCell" customModule="TRWMSLayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="148"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-yT-5WT">
+                        <rect key="frame" x="0.0" y="120" width="120" height="28"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYh-eF-8Fc">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dAb-Xr-F1L" customClass="GradientView" customModule="TRWMSLayer" customModuleProvider="target">
+                                <rect key="frame" x="14" y="14" width="92" height="92"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dAb-Xr-F1L" secondAttribute="height" multiplier="1:1" id="1yO-3C-1Uf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isVertical" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dAb-Xr-F1L" firstAttribute="height" secondItem="fYh-eF-8Fc" secondAttribute="height" constant="-28" id="4Et-3A-3ja"/>
+                            <constraint firstAttribute="width" secondItem="fYh-eF-8Fc" secondAttribute="height" multiplier="1:1" id="RZV-9q-gDd"/>
+                            <constraint firstItem="dAb-Xr-F1L" firstAttribute="centerY" secondItem="fYh-eF-8Fc" secondAttribute="centerY" id="cyN-hr-EjR"/>
+                            <constraint firstItem="dAb-Xr-F1L" firstAttribute="centerX" secondItem="fYh-eF-8Fc" secondAttribute="centerX" id="lsR-mu-fbU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fYh-eF-8Fc" secondAttribute="trailing" id="MwW-sN-QWu"/>
+                <constraint firstItem="rJT-yT-5WT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rdi-vd-RG9"/>
+                <constraint firstItem="fYh-eF-8Fc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WEg-6i-nbF"/>
+                <constraint firstItem="rJT-yT-5WT" firstAttribute="top" secondItem="fYh-eF-8Fc" secondAttribute="bottom" id="ZFb-5m-WN6"/>
+                <constraint firstItem="fYh-eF-8Fc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bpB-g9-Vg5"/>
+                <constraint firstAttribute="bottom" secondItem="rJT-yT-5WT" secondAttribute="bottom" id="eHu-Yr-J2X"/>
+                <constraint firstAttribute="trailing" secondItem="rJT-yT-5WT" secondAttribute="trailing" id="msU-cS-0L5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="120" height="166"/>
+            <connections>
+                <outlet property="lblTitle" destination="rJT-yT-5WT" id="90q-hr-cbC"/>
+                <outlet property="viewContainer" destination="fYh-eF-8Fc" id="TSZ-LH-jUZ"/>
+                <outlet property="viewGradient" destination="dAb-Xr-F1L" id="H44-KB-hwS"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>

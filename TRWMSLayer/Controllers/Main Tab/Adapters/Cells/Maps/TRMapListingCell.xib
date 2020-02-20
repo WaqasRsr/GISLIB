@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TRMapListingCell" customModule="TRWMSLayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="164"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_icon" translatesAutoresizingMaskIntoConstraints="NO" id="SIe-NP-5Mr">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="SIe-NP-5Mr" secondAttribute="height" multiplier="1:1" id="Nmm-FD-ZuX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-yT-5WT">
+                        <rect key="frame" x="8" y="124" width="104" height="17"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 March 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-IX-ATi">
+                        <rect key="frame" x="8" y="145" width="74" height="13"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                        <color key="textColor" red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="eDf-hx-xl3">
+                        <rect key="frame" x="86" y="145.5" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="eDf-hx-xl3" secondAttribute="height" multiplier="1:1" id="6ti-3e-1mR"/>
+                            <constraint firstAttribute="height" constant="12" id="hny-r4-Ylq"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eDf-hx-xl3" firstAttribute="centerY" secondItem="gLw-IX-ATi" secondAttribute="centerY" id="2ZZ-D1-wCD"/>
+                <constraint firstItem="eDf-hx-xl3" firstAttribute="leading" secondItem="gLw-IX-ATi" secondAttribute="trailing" constant="4" id="7id-mV-fp2"/>
+                <constraint firstItem="SIe-NP-5Mr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ANN-hB-aZh"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eDf-hx-xl3" secondAttribute="trailing" constant="8" id="BWS-4z-NA6"/>
+                <constraint firstItem="gLw-IX-ATi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Pio-ud-2HS"/>
+                <constraint firstItem="rJT-yT-5WT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Rdi-vd-RG9"/>
+                <constraint firstAttribute="trailing" secondItem="rJT-yT-5WT" secondAttribute="trailing" constant="8" id="msU-cS-0L5"/>
+                <constraint firstAttribute="trailing" secondItem="SIe-NP-5Mr" secondAttribute="trailing" id="reC-g9-h51"/>
+                <constraint firstItem="rJT-yT-5WT" firstAttribute="top" secondItem="SIe-NP-5Mr" secondAttribute="bottom" constant="4" id="sp8-EU-Ug6"/>
+                <constraint firstItem="SIe-NP-5Mr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yMZ-PZ-tPB"/>
+                <constraint firstItem="gLw-IX-ATi" firstAttribute="top" secondItem="rJT-yT-5WT" secondAttribute="bottom" constant="4" id="zF2-U9-GJs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="120" height="166"/>
+            <connections>
+                <outlet property="imgCover" destination="SIe-NP-5Mr" id="FkM-gQ-TFa"/>
+                <outlet property="imgTick" destination="eDf-hx-xl3" id="XOy-LX-f4b"/>
+                <outlet property="lblDate" destination="gLw-IX-ATi" id="6us-sb-OwC"/>
+                <outlet property="lblTitle" destination="rJT-yT-5WT" id="90q-hr-cbC"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="check" width="52" height="52"/>
+        <image name="map_icon" width="500" height="470"/>
+    </resources>
+</document>
